@@ -7,8 +7,7 @@
  * 輸出: 'Alice: 85%'
  */
 
-let TStudent: [string, number]
-export function printStudentInfo(student: TStudent) {
+export function printStudentInfo(student: [string, number]) {
     // 在此實現函式
     return `${student[0]}: ${student[1]}%`
 }
